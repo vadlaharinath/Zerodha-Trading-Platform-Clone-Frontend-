@@ -1,0 +1,141 @@
+.main-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-bar {
+  width: 390px;
+}
+
+.right-bar {
+  flex: 1;
+  padding: 32px 40px;
+  background: #fff;
+  color: #222;
+}
+
+.Nested-holdings {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 12px;
+}
+
+.Nested-holdings a {
+  color: #4285f4;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 6px 18px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.Nested-holdings a:hover {
+  background: #eaf3fc;
+}
+
+.holdings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.holdings-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-right: 16px;
+}
+
+.holdings-select {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #e3e6ef;
+  background: #f5f7fa;
+  font-size: 1rem;
+  margin-left: 8px;
+}
+
+.holdings-search {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #e3e6ef;
+  background: #f5f7fa;
+  font-size: 1rem;
+}
+
+.holdings-summary {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 18px;
+}
+
+.holdings-summary > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.holdings-value {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.holdings-value.green {
+  color: #2ecc71;
+}
+
+.holdings-value.red {
+  color: #e74c3c;
+}
+
+.small {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-left: 6px;
+}
+
+.holdings-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.holdings-table th, .holdings-table td {
+  border-bottom: 1px solid #e3e6ef;
+  padding: 12px 14px;
+  text-align: left;
+}
+
+.holdings-table th {
+  background: #f5f7fa;
+  color: #2d3a4b;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.holdings-table td {
+  color: #222;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.holdings-table tr:nth-child(even) {
+  background: #f9fbfc;
+}
+
+.holdings-table tr:hover {
+  background: #eaf3fc;
+  transition: background 0.2s;
+}
+
+.green {
+  color: #2ecc71 !important;
+  font-weight: 600;
+}
+
+.red {
+  color: #e74c3c !important;
+  font-weight: 600;
+}

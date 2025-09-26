@@ -1,0 +1,59 @@
+#heading{
+  color:#444 ;
+  font-family:'Times New Roman', Times, serif;
+}
+.main-container{
+    display: flex;
+    gap:20px;
+}
+#name-heading{
+    margin:20px;
+}
+.horizontal-line {
+  width: 1020px;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+.left-bar{
+margin-left:10px;
+}
+
+.equity-commodity{
+  display: flex;
+  /* justify-content:space-between; */
+  margin-left:20px;
+  gap:500px;
+  font-size: 20px;
+  
+}
+.Box1-2-3-4{
+  display:flex;
+  margin:40px;
+  justify-content: space-between;
+  margin-left: 20px;
+  color:#444 ;
+
+}
+.holdings{
+  margin-left: 20px;
+  color:#444 ;
+}
+.divider {
+  width: 1px; 
+  background: #444 ; /* Vertical line */
+}
+.holding-below{
+  display: flex;
+  gap:300px;
+  margin:30px;
+  color:#444 ;
+}
+.holding_below-below{
+  margin-left: 20px;
+}
+#mixedcolor{
+  /* width:auto; */
+  width:900px;
+  height:70px;
+}

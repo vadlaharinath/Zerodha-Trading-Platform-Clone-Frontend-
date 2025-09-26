@@ -1,0 +1,58 @@
+.right-bar {
+  flex: 1;
+  padding: 32px 40px;
+  color: #222;
+  background: #fff; /* Set right bar background to white */
+}
+
+.bids-title {
+  font-size: 1.5rem;
+  color: #222; /* Change title color for contrast */
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.bids-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff; /* Table background white */
+}
+
+.bids-table th, .bids-table td {
+  border-bottom: 1px solid #e3e6ef; /* Lighter border for white bg */
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.bids-table th {
+  background: #f5f7fa; /* Light header background */
+  color: #2d3a4b;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.bids-table td {
+  color: #222;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.bids-table tr:nth-child(even) {
+  background: #f9fbfc;
+}
+
+.bids-table tr:hover {
+  background: #eaf3fc;
+  transition: background 0.2s;
+}
+.apply-btn{
+    color:#e3e6ef;
+    background-color:skyblue;
+    border:none;
+    padding:8px 16px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+/* ...rest of your CSS remains unchanged... */

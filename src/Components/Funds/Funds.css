@@ -1,0 +1,96 @@
+.main-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-bar {
+  width: 390px; /* You can adjust this width as needed */
+}
+
+.right-bar {
+  flex: 1;
+  padding: 32px 40px;
+  color: #222;
+  background: #fff; /* Set background to white */
+}
+
+.funds-header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.funds-btn {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.funds-btn.add {
+  background: #2ecc71;
+  color: #fff;
+}
+
+.funds-btn.withdraw {
+  background: #4285f4;
+  color: #fff;
+}
+
+.funds-panels {
+  display: flex;
+  gap: 32px;
+}
+
+.funds-panel {
+  background: #f7f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 24px 32px;
+  min-width: 340px;
+  flex: 1;
+}
+
+.funds-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.funds-links a {
+  color: #4285f4;
+  margin-left: 18px;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.funds-panel-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.funds-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #222;
+  padding: 4px 0;
+}
+
+.funds-value {
+  font-weight: 500;
+}
+
+.funds-value.highlight {
+  color: #4285f4;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
